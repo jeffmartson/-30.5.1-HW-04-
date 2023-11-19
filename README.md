@@ -22,7 +22,7 @@ pytest petfriends_tests3.py
 В файле petfriends_tests3.py вы можете настроить следующие параметры:
 
 - username и password: ваш логин и пароль для входа в приложение Pet Friends.
-- chrome_driver_path: путь к установленному Chrome WebDriver.
+- user_data: путь к установленному Chrome WebDriver.
 
 ## Структура проекта
 petfriends_tests3.py: основной файл с автоматизированными тестами.
