@@ -21,11 +21,10 @@ def driver():
 
     driver.quit()
 
-
 def test_pet_cards(driver):
     # Авторизация на сайте (используйте свои учетные данные)
-    username = "USER_DATA"
-    password = "USER_DATA"
+    username = "username"
+    password = "password"
 
     driver.get("https://petfriends.skillfactory.ru/login")
     driver.find_element(By.ID, "email").send_keys(username)
@@ -71,8 +70,8 @@ def test_pet_cards(driver):
 
 def test_pet_photos_and_info(driver):
     # Авторизация на сайте (используйте свои учетные данные)
-    username = "USER_DATA"
-    password = "USER_DATA"
+    username = "username"
+    password = "password"
 
     driver.get("https://petfriends.skillfactory.ru/login")
     driver.find_element(By.ID, "email").send_keys(username)
